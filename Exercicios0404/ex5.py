@@ -17,7 +17,8 @@ for num in lista:
     if num != maior and num != menor:
         meio = num
 
-        
+
 decrescente = [maior, meio, menor]
 crescente = [menor, meio, maior]
+
 print(f"Crescente: {crescente}, Decrescente: {decrescente}")

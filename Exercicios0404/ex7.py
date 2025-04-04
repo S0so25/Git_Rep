@@ -17,6 +17,6 @@ for num in range(len(lista)-1):
 
 media = media/len(lista)
 if media>=6:
-    print(f"A sua média é de {media} e está Aprovado")
+    print(f"A sua média é de {media:.2f} e está Aprovado")
 else:
-    print(f"A sua média é de {media} e está Reprovado")
+    print(f"A sua média é de {media:.2f} e está Reprovado")
